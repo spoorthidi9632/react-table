@@ -1,0 +1,104 @@
+.table {
+  margin: 20px auto;
+  width: 80%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+.search {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 300px;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  color: #333;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 0 5px;
+  border-radius: 5px;
+}
+
+.pagination button:hover {
+  background-color: #45a049;
+}
+
+.pagination button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.pagination button:focus {
+  outline: none;
+}
+
+.heading {
+  text-align: center;
+  font-size: 32px; 
+  margin-bottom: 10px;
+  font-weight: bold; 
+  color: #17202A;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+  padding: 10px; 
+  font-family: 'Arial', sans-serif; 
+  border-bottom: 2px solid #FFA500; 
+}
+
+.search-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.export-buttons {
+  text-align: center; /* Center align the export button */
+  margin-bottom: 20px; /* Add margin at the bottom for spacing */
+}
+
+.export-buttons button {
+  background-color: #ff9800; /* Orange color for export button */
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 0 5px;
+  border-radius: 5px;
+}
+
+.export-buttons button:hover {
+  background-color: #f57c00; /* Darker shade of orange on hover */
+}
